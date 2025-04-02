@@ -1,0 +1,38 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/calculatorLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/bg"
+    android:padding="8dp">
+
+    <!-- תצוגת הביטוי -->
+    <TextView
+        android:id="@+id/displayExpression"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="end|bottom"
+        android:padding="24dp"
+        android:text="0"
+        android:textSize="48sp"
+        android:textColor="@color/buttonText"
+        android:background="#ECECEC"
+        android:elevation="4dp"
+        android:layout_margin="8dp"
+        android:textDirection="ltr"
+        android:layoutDirection="ltr" />
+
+    <!-- גריד של כפתורים -->
+    <GridLayout
+        android:id="@+id/buttonGrid"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="2"
+        android:columnCount="4"
+        android:rowCount="5"
+        android:alignmentMode="alignMargins"
+        android:useDefaultMargins="true"
+        android:padding="8dp"
+        android:layoutDirection="ltr" />
+</LinearLayout>

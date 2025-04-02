@@ -1,0 +1,18 @@
+<resources>
+    <!-- צבעים ברירת מחדל של Android Studio -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- צבעים מותאמים אישית למחשבון -->
+    <color name="bg">#F1F1F1</color> <!-- צבע רקע כללי -->
+    <color name="displayBackground">#ECECEC</color> <!-- רקע של תצוגת הביטוי -->
+    <color name="buttonNumber">#FFFFFF</color> <!-- רקע של כפתורים מספריים -->
+    <color name="buttonOperator">#FF9800</color> <!-- רקע של כפתורי פעולות (+, -, וכו') -->
+    <color name="buttonFunction">#9E9E9E</color> <!-- רקע של כפתורים כמו C, DEL וכו' -->
+    <color name="buttonText">#000000</color> <!-- צבע טקסט על הכפתורים והתצוגה -->
+</resources>
